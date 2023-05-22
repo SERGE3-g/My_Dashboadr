@@ -1,0 +1,108 @@
+<div class="sidebar" [ngClass]="{'open': isSidebarOpen, 'closed': !isSidebarOpen}">
+  <div class="logo_details">
+    <i class="bx bxl-audible icon"></i>
+    <div class="logo_name">SERGE GUEA</div>
+    <i class="bx bx-menu" id="btn" (click)="toggleSidebar()"></i>
+  </div>
+  <ul class="nav-list">
+    <li>
+      <i class="bx bx-search"></i>
+      <input type="text" placeholder="Search..." />
+      <span class="tooltip" routerLink="/search">Search</span>
+    </li>
+    <li>
+      <a routerLink="/dashboard" (click)="closeSidebar()">
+        <i class="bx bx-grid-alt"></i>
+        <span class="link_name">Dashboard</span>
+      </a>
+      <span class="tooltip">Dashboard</span>
+    </li>
+    <li>
+      <a routerLink="/user" (click)="closeSidebar()">
+        <i class="bx bx-user"></i>
+        <span class="link_name">Users</span>
+      </a>
+      <span class="tooltip">Users</span>
+    </li>
+    <li>
+      <a routerLink="/message" (click)="closeSidebar()">
+        <i class="bx bx-chat"></i>
+        <span class="link_name">Messages</span>
+      </a>
+      <span class="tooltip">Messages</span>
+    </li>
+    <li>
+      <a routerLink="/analytics" (click)="closeSidebar()">
+        <i class="bx bx-pie-chart-alt-2"></i>
+        <span class="link_name">Analytics</span>
+      </a>
+      <span class="tooltip">Analytics</span>
+    </li>
+    <li>
+      <a routerLink="/file-manager" (click)="closeSidebar()">
+        <i class="bx bx-folder"></i>
+        <span class="link_name">file-manager</span>
+      </a>
+      <span class="tooltip">File Manager</span>
+    </li>
+    <li>
+      <a routerLink="/order" (click)="closeSidebar()">
+        <i class="bx bx-cart-alt"></i>
+        <span class="link_name">Order</span>
+      </a>
+      <span class="tooltip">Order</span>
+    </li>
+    <li>
+      <a routerLink="/like" (click)="closeSidebar()">
+        <i class="bx bx-heart"></i>
+        <span class="link_name">Likes</span>
+      </a>
+      <span class="tooltip">Likes</span>
+    </li>
+    <li>
+      <a routerLink="/setting" (click)="closeSidebar()">
+        <i class="bx bx-cog"></i>
+        <span class="link_name">Settings</span>
+      </a>
+      <span class="tooltip">Settings</span>
+    </li>
+    <li>
+      <a routerLink="/help" (click)="closeSidebar()">
+        <i class="bx bx-help-circle"></i>
+        <span class="link_name">Help</span>
+      </a>
+      <span class="tooltip">Help</span>
+    </li>
+    <li>
+      <a routerLink="/log-out" (click)="closeSidebar()">
+        <i class="bx bx-log-out"></i>
+        <span class="link_name">Log out</span>
+      </a>
+      <span class="tooltip">Log out</span>
+    </li>
+  </ul>
+ <section>
+  <div class="profile_content">
+
+    <!-- <div class="name">Serge Guea</div>
+    <div class="designation">Admin</div> -->
+    <!--  <div class="login">Login</div> -->
+  </div>
+
+
+
+<!--  </section>
+  <ul class="profile">
+    <li class="profile">
+      <div class="profile_details">
+        <img src="" alt="profile image" />
+        <div class="profile_content">
+          <div class="name">Serge Guea</div>
+          <div class="designation">Admin</div>
+        </div>
+      </div>
+      <i class="bx bx-log-out" id="log_out"></i>
+    </li>
+  </ul>
+</div> -->
+

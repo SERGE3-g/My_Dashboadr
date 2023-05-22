@@ -1,36 +1,7 @@
-<ejs-grid #grid [dataSource]='data' height=335 width='auto'>
-  <e-columns>
-      <e-column headerText='Employee Image' width='150' textAlign='Center'></e-column>
-      <e-column headerText='Employee Details' width='300' textAlign='Left'></e-column>
-  </e-columns>
-  <ng-template #rowTemplate let-data>
-      <tr>
-          <td class="rowphoto">
-            <img src=".png" alt="" />
-          </td>
-          <td class="details">
-              <table class="CardTable" cellpadding="3" cellspacing="2">
-                  <colgroup>
-                      <col width="50%">
-                      <col width="50%">
-                  </colgroup>
-                  <tbody>
-                      <tr>
-                          <td class="CardHeader">First Name </td>
-                          <td> </td>
-                      </tr>
-                      <tr>
-                          <td class="CardHeader">Last Name</td>
-                          <td> </td>
-                      </tr>
-                      <tr>
-                          <td class="CardHeader">Title</td>
+<header>
+  <app-dashboard></app-dashboard>
+</header>
 
-                          <td></td>
-                      </tr>
-                  </tbody>
-              </table>
-          </td>
-      </tr>
-  </ng-template>
-</ejs-grid>`,
+
+
+

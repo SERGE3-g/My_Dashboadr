@@ -6,12 +6,9 @@ import { employeeData } from './model/employeeData';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent  implements OnInit {
+export class AppComponent  {
   title = 'My_Dashboadr';
 
-    public data: object[] | undefined;
 
-    ngOnInit(): void {
-        this.data = employeeData;
-    }
+
 }
